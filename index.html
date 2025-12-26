@@ -3,27 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>内部 FAQ 知识库</title>
-  <!-- 不让搜索引擎收录 -->
   <meta name="robots" content="noindex">
-  <!-- Docsify核心样式 -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <!-- 修复CDN链接格式（去掉多余的https://前缀） -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
 
-  <!-- 1. 先引入Docsify核心库（必须最先引入） -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  
-  <!-- 2. 再引入折叠侧边栏插件（顺序不能反） -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- 只保留Docsify核心库，去掉所有插件（先确保基础功能可用） -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <script>
     window.$docsify = {
       name: '内部 FAQ 知识库',
-      loadNavbar: true,       // 加载导航栏（_navbar.md）
-      loadSidebar: true,      // 同时开启侧边栏（兼容插件）
-      sidebarDisplayLevel: 2, // 侧边栏显示层级
-      subMaxLevel: 3          // 子菜单最大层级
+      loadNavbar: true,  // 加载_navbar.md作为导航/侧边栏
+      subMaxLevel: 2     // 简化层级，降低加载复杂度
     }
   </script>
 </body>
