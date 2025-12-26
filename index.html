@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>内部 FAQ 知识库</title>
-  <meta name="robots" content="noindex">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <title>内部FAQ知识库</title>
+  <!-- Docsify核心样式（无格式错误） -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- 只引入稳定版Docsify核心库（无插件，避免加载问题） -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
   <script>
     window.$docsify = {
-      name: '内部 FAQ 知识库',
-      loadNavbar: true,        // 加载_navbar.md
-      loadSidebar: true,       // 强制开启侧边栏
-      subMaxLevel: 3,          // 显示3级菜单
-      alias: {                 // 确保文件路径正确（关键）
-        '/_navbar.md': '/_navbar.md',
-        '/README.md': '/README.md'
-      }
+      name: '内部FAQ知识库',
+      loadSidebar: true,   // 开启侧边栏
+      loadNavbar: true,    // 加载导航栏（作为侧边栏菜单）
+      subMaxLevel: 2,      // 菜单显示2级（足够用）
+      auto2top: true       // 点击菜单回到顶部
     }
   </script>
 </body>
