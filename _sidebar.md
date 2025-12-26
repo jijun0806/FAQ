@@ -1,8 +1,8 @@
-- 首页
+- Windows
   - [使用说明](README.md)
-- 常见问题
+- MAC
   - [账号登录](README.md#账号登录)
   - [权限申请](README.md#权限申请)
-- 运维操作
+- Linux
   - [服务器部署](README.md#服务器部署)
   - [日志查看](README.md#日志查看)
