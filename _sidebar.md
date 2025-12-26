@@ -1,18 +1,9 @@
-- 🏠 首页
-  - [FAQ 首页](/)
-
-- 🛠 运维
-
-  - 🐧 Linux
-    - [概览](ops/linux/README.md)
-    - [Docker](ops/linux/docker.md)
-    - [Nginx](ops/linux/nginx.md)
-    - [MySQL](ops/linux/mysql.md)
-
-  - 🪟 Windows
-    - [概览](ops/windows/README.md)
-    - [常见问题](ops/windows/common.md)
-
-  - 🍎 macOS
-    - [概览](ops/mac/README.md)
-    - [Homebrew](ops/mac/brew.md)
+# FAQ 内部FAQ知识库
+- 使用说明
+  - 左侧选择分类
+  - 搜索或浏览问题
+  - 内容由管理员维护
+- 目录
+  - 常见问题
+  - 运维操作
+  - 故障排查
