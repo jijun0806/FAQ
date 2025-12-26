@@ -1,9 +1,18 @@
-- 📌 常见问题
-  - [登录相关](common/login.md)
+- 🏠 首页
+  - [FAQ 首页](/)
 
-- 🛠 运维操作
-  - [Linux 基础](ops/linux.md)
+- 🛠 运维
 
-- 🚨 故障排查
-  - [磁盘满了](trouble/disk.md)
+  - 🐧 Linux
+    - [概览](ops/linux/README.md)
+    - [Docker](ops/linux/docker.md)
+    - [Nginx](ops/linux/nginx.md)
+    - [MySQL](ops/linux/mysql.md)
 
+  - 🪟 Windows
+    - [概览](ops/windows/README.md)
+    - [常见问题](ops/windows/common.md)
+
+  - 🍎 macOS
+    - [概览](ops/mac/README.md)
+    - [Homebrew](ops/mac/brew.md)
