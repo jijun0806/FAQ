@@ -1,8 +1,13 @@
+- [首页](README.md)
 - Windows
-  - [使用说明](README.md)
-- MAC
-  - [账号登录](README.md#账号登录)
-  - [权限申请](README.md#权限申请)
+  - [Windows 主页面](Windows.md)
+  - [账号问题](Windows-账号问题.md)
+  - [运维操作](Windows-运维操作.md)
+- Mac
+  - [Mac 主页面](Mac.md)
+  - [账号问题](Mac-账号问题.md)
+  - [运维操作](Mac-运维操作.md)
 - Linux
-  - [服务器部署](README.md#服务器部署)
-  - [日志查看](README.md#日志查看)
+  - [Linux 主页面](Linux.md)
+  - [账号问题](Linux-账号问题.md)
+  - [运维操作](Linux-运维操作.md)
